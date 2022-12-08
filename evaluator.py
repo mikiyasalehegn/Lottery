@@ -10,10 +10,10 @@ class Evaluator(Show, Backend):
         super().__init__()
         self.ticket = random.randint(1000,9999)
 
-    def access(self,price):
+    def access(self,award):
         identify = int(input("Enter your id: "))
         account = int(input("Enter your bank account: "))
-        self.record(identify,account,price)
+        self.record(identify,account,award)
 
     def compute(self, intersect):
         if intersect == 5 and self.userpowerball == self.todayspowerball:

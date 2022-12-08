@@ -21,18 +21,18 @@
 # Every time you run your program/page, your  would display the winning numbers, and your lucky numbers,
 # and the result respectively. For example, after I rerun my program several times, I got this one:
 
-# Grading: Today’s Powerball Winning Numbers (27 points)
-# •	The first five numbers (purple) are random numbers drawn from 20 numbers (11 points) – hard code
+# Grading: Today’s Powerball Winning Numbers 
+# •	The first five numbers (purple) are random numbers drawn from 20 numbers – hard code
 #     results in zero points.
 # •	The first five numbers (purple) should be in ascending order (11 points) - hard code results in zero points.
-# •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10. (5 points) - hard code
+# •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10. - hard code
 #     results in zero points.
 
-# Grading: Your lucky numbers: (32 points)
+# Grading: Your lucky numbers: 
 # •	The first five numbers (purple) are random numbers drawn from 20 numbers (12 points) – hard code
 #     results in zero points.
 # •	The first five numbers (purple) should be in ascending order (15 points)  - hard code results in zero points.
-# •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10 inclusively. (5 points)
+# •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10 inclusively.
 #     - hard code results in zero points.
 #
 # Part IV: Use if or switch conditional statements to display the result based on your lucky numbers and winning

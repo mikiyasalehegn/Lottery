@@ -9,8 +9,8 @@ def app():
     s = Evaluator()
     while True:
         try:
-            pay = int(input("Please pay $5 to get lottery: "))
-            if pay >= 5:
+            pay = int(input("Please pay $6 to get lottery: "))
+            if pay >= 6:
                 s.create()
                 s.display()
                 s.compute(s.intersect())

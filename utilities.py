@@ -10,8 +10,8 @@ class Creatnumbers:
     def __init__(self):
         self.userwhiteball = []
         self.todayswhiteball = []
-        self.userpowerball = []
-        self.todayspowerball = []
+        self.userpowerball = randint(1, 10)
+        self.todayspowerball = randint(1, 10)
         self.intersections = set()
 
     def create(self):
@@ -20,10 +20,6 @@ class Creatnumbers:
             self.userwhiteball.append(usernum)
             todaynum = randint(1, 20)
             self.todayswhiteball.append(todaynum)
-        luckypowerball = randint(1, 10)
-        todaypowerball = randint(1, 10)
-        self.userpowerball.append(luckypowerball)
-        self.todayspowerball.append(todaypowerball)
 
 
 class Backend:

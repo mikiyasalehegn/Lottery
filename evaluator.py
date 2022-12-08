@@ -1,5 +1,3 @@
-
-import colors
 from show import Show
 
 

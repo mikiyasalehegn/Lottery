@@ -47,3 +47,17 @@
 # •	1 Correct White Ball and the Powerball: $4
 # •	No White Balls, Just the Powerball: $4
 # •	All Other situations – display “try again!”
+
+
+#Author: Mikiyas Alehegn
+
+#Key Words 
+
+comoute(): Is a method in evaluator class that used to check if the player wins the game.
+intersect : Is a parameter that represent the amount of common numbers for both white balls. It is also a method 
+            used to calculate intersection.
+Evalutor: Is a class that compute different conditions to award the players.
+delete(): A method used to delete numbers from lists.
+
+
+

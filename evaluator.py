@@ -2,8 +2,7 @@ from show import Show
 
 
 class Evaluator(Show):
-    """In this Class the intersection of user's lucky number(self.userwhiteball) and today's powerball winning
-    number(self.todayswhiteball) will be computed in order to create the wining scenarios"""
+    """In this Class the winning scenarios had been created to notice a player the result of the game."""
     def compute(self, intersect):
         if intersect == 5 and self.userpowerball == self.todayspowerball:
             print("Congratulations!\nYou have correct White Balls and the Powerball\n you win $324,000,000")

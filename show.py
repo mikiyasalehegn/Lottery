@@ -11,13 +11,13 @@ class Show(Creatnumbers):
         for i in self.todayswhiteball:
             powerballnumber += f" {i}"
         print("Today's power ball winning numbers:")
-        print(colors.MAGENTA+powerballnumber, colors.YELLOW+str(self.todayspowerball))
+        print(colors.MAGENTA+powerballnumber, colors.YELLOW+str(self.todayspowerball[0]))
 
         luckynumber = ""
         for i in self.userwhiteball:
             luckynumber += f" {i}"
         print(colors.CYAN+"Your lucky numbers:")
-        print(colors.MAGENTA+luckynumber,colors.YELLOW + str(self.userpowerball))
+        print(colors.MAGENTA+luckynumber,colors.YELLOW + str(self.userpowerball[0]))
 
     def intersect(self):
         """This method performs conversion of list(white balls) to set and calculate intersection for them"""

@@ -29,15 +29,15 @@ class Backend:
     """This class consists of functions that will keep winners data on the national lottery institute's database"""
 
     def __init__(self):
-        self.game_id = randint(1000, 9999)
+        self.Ticket_id = randint(1000, 9999)
 
     def record(self, p_id, account_num, money: int):
         connect = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL '
                                  'Server};SERVER=MIKE;DATABASE=Lotto;Trusted_Connection=yes;')
 
         cursor = connect.cursor()
-        cursor.execute("insert into [Winners] ([Game_id],[Personal_id],[Date_time],[Bank_account],[Amount]) "
-                       "values(?,?,?,?,?)", (self.game_id, p_id, datetime.datetime.now(), account_num, money))
+        cursor.execute("insert into [Winners] ([Ticket_id],[Personal_id],[Date_time],[Bank_account],[Amount]) "
+                       "values(?,?,?,?,?)", (self.Ticket_id, p_id, datetime.datetime.now(), account_num, money))
 
         cursor.commit()
 

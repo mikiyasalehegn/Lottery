@@ -8,7 +8,7 @@ class Evaluator(Show, Backend):
     number(self.todayswhiteball) will be computed in order to create the wining scenarios"""
     def __init__(self):
         super().__init__()
-        self.ticket = random.randint(1000,9999)
+        self.game_id = random.randint(1000,9999)
 
     def access(self,award):
         identify = int(input("Enter your id: "))

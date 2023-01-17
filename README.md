@@ -51,11 +51,11 @@
 
 ## Key Words 
 
-### Author: Mikiyas Alehegn Author: Mikiyas Alehegn comoute(): Is a method in evaluator class that used to check if the player wins the game.
-### Author: Mikiyas Alehegn Author: Mikiyas Alehegn intersect : Is a parameter that represent the amount of common numbers for both white balls. It is also a method 
+### Author: Is a method in evaluator class that used to check if the player wins the game.
+### Author: Is a parameter that represent the amount of common numbers for both white balls. It is also a method 
 ###            used to calculate intersection.
-### Author: Mikiyas Alehegn Evalutor: Is a class that compute different conditions to award the players.
-### Author: Mikiyas Alehegn delete(): A method used to delete numbers from lists.
+### Author: Is a class that compute different conditions to award the players.
+### Author: A method used to delete numbers from lists.
 
 ## Author: Mikiyas Alehegn
 

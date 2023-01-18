@@ -1,62 +1,59 @@
 
-# Lottery
+# Powerball Lottery
 
-## How does the Powerball game work in this assignment?
-#### •	The Powerball game in this assignment works differently from the real one like Mega Millions to get more chances
-####     to get favorite results.
-#### •	The Powerball game includes two parts.
-#### •	Part one includes 5 numbers. These five numbers are white ball numbers, which are drawn randomly
-####     from 20 numbers from 1 to 20 inclusively - (1,2,3, 4, 5, … , 17,18,19, 20).
-#### •	Part two only has one number, the Powerball number, which is obtained randomly
-####     from 10 numbers (1,2,3,4, 5,6,7,8, 9,10).
-#### •	When your program/page is run or reloaded/refreshed, it would display today’s Powerball winning numbers,
-####     your lucky numbers, and display the result based on your lucky numbers against Today’s Powerball winning numbers.
+The Powerball game in this this works differently from the real one like Mega Millions to get more chances
+to get favorite results. 
+###  How does the Powerball game work in this assignment?
+- The Powerball game includes two parts.
+- Part one includes 5 numbers. These five numbers are white ball numbers, which are drawn randomly
+    from 20 numbers from 1 to 20 inclusively - (1,2,3, 4, 5, … , 17,18,19, 20).
+- Part two only has one number, the Powerball number, which is obtained randomly
+    from 10 numbers (1,2,3,4, 5,6,7,8, 9,10).
+- When the program/page is run or reloaded/refreshed, it would display today’s Powerball winning numbers,
+    your lucky numbers, and display the result based on your lucky numbers against Today’s Powerball winning numbers.
+- If the user winns the game, the system asks him/her to enter phone number and id and user's profile and gmae history will be 
+    registerd on SQL server.
 
-## Here is one of the examples when I run my code.
-#### today's powerball winning number:
-####    3 5 18 12 5 1
-#### Your lucky number:
-####    2 14 19 0 3 2
-####   Try again
+### Winning Conditions
+- Correct White Balls and the Powerball: Jackpot $324,000,000
+- 5 Correct White Balls, but no Powerball: $1,000,000
+- 4 Correct White Balls and the Powerball: $10,000
+- 4 Correct White Balls, but no Powerball: $100
+- 3 Correct White Balls and the Powerball: $100
+- 3 Correct White Balls, but no Powerball: $7
+- 2 Correct White Balls and the Powerball: $7
+- 1 Correct White Ball and the Powerball: $4
+- No White Balls, Just the Powerball: $4
+- All Other situations – display “try again!”
 
-#### Every time you run your program/page, your  would display the winning numbers, and your lucky numbers,
-#### and the result respectively. For example, after I rerun my program several times, I got this one:
+## Author
 
-## Grading: Today’s Powerball Winning Numbers 
-#### •	The first five numbers (purple) are random numbers drawn from 20 numbers>> – hard code
-####     results in zero points.
-#### •	The first five numbers (purple) should be in ascending order (11 points) - hard code results in zero points.
-#### •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10. - hard code
-####     results in zero points.
+- [@mikiyasalehegn](https://www.github.com/mikiyasalehegn)
 
-## Grading: Your lucky numbers: 
-#### •	The first five numbers (purple) are random numbers drawn from 20 numbers (12 points) – hard code
-####     results in zero points.
-#### •	The first five numbers (purple) should be in ascending order (15 points)  - hard code results in zero points.
-#### •	The Powerball number (gold) is a random number drawn from 10 numbers from 1 to 10 inclusively.
-####     - hard code results in zero points.
 
-## Part IV: Use if or switch conditional statements to display the result based on your lucky numbers and winning
-##    numbers. (20 points)
-#### •	Correct White Balls and the Powerball: Jackpot $324,000,000
-#### •	5 Correct White Balls, but no Powerball: $1,000,000
-#### •	4 Correct White Balls and the Powerball: $10,000
-#### •	4 Correct White Balls, but no Powerball: $100
-#### •	3 Correct White Balls and the Powerball: $100
-#### •	3 Correct White Balls, but no Powerball: $7
-#### •	2 Correct White Balls and the Powerball: $7
-#### •	1 Correct White Ball and the Powerball: $4
-#### •	No White Balls, Just the Powerball: $4
-#### •	All Other situations – display “try again!”
+## Usage/Examples
 
-## Key Words 
+Here is one of the examples when I run my code.
+```                               Welcome to Powerball
+Press enter to start
+Please pay $6 to get lottery: 6
+Today's power ball winning numbers:
+ 3 7 13 13 13 10
+Your lucky numbers:
+ 5 6 7 15 16 4
+Correct White Balls: {7} = 1
+Try again
+Do you wanna continue? y/n n
 
-#### Author: Is a method in evaluator class that used to check if the player wins the game.
-#### Author: Is a parameter that represent the amount of common numbers for both white balls. It is also a method 
-####            used to calculate intersection.
-#### Author: Is a class that compute different conditions to award the players.
-#### Author: A method used to delete numbers from lists.
+Process finished with exit code 0
+```
 
-## Author: Mikiyas Alehegn
+
+## Tech Stack
+-  Python
+- SQL
+
+
+
 
 

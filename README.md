@@ -1,8 +1,7 @@
 
 # Powerball Lottery
 
-The Powerball game in this this works differently from the real one like Mega Millions to get more chances
-to get favorite results. 
+In this project i teried to write a code that enables us to play lottary game. Suppose the user plays a game and wins, then the system asks him to enter the ID number and the bank account of the user. Once those data are entered, the system immediately records the data on the server in tabular form. This registration will help pay the prize to the winner. 
 ###  How does the Powerball game work in this assignment?
 - The Powerball game includes two parts.
 - Part one includes 5 numbers. These five numbers are white ball numbers, which are drawn randomly
